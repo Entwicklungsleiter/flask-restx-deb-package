@@ -1,3 +1,3 @@
-[submodule "flask-restplus"]
-	path = flask-restplus
-	url = https://github.com/noirbizarre/flask-restplus.git
+[submodule "flask-restx"]
+	path = flask-restx
+	url = https://github.com/python-restx/flask-restx.git
