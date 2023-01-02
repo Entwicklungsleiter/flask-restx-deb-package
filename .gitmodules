@@ -1,3 +1,4 @@
 [submodule "flask-restx"]
 	path = flask-restx
 	url = https://github.com/python-restx/flask-restx.git
+	branch = master
