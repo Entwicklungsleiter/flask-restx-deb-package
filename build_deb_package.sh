@@ -13,7 +13,8 @@ init() {
 build() {
 	cd "${MODULE_PATH}" &&
 	python3 setup.py --command-packages=stdeb.command bdist_deb &&
-	cp deb_dist/python3-flask-restx_*.deb "${SRC_PATH}/"
+	mv ${MODULE_PATH}/deb_dist/python3-flask-restx_*.deb "${SRC_PATH}/"
+	rm -rf ${MODULE_PATH}/deb_dist ${MODULE_PATH}/flask-restx-*.tar.gz
 	cd "${SRC_PATH}"
 }
 
