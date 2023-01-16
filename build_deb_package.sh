@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# requirements:
-# sudo apt install dh-python python3-stdeb python3-aniso8601
-
 SRC_PATH="$(pwd)"
 MODULE_PATH="$(pwd)/flask-restx"
 
